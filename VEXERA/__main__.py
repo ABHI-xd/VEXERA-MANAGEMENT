@@ -78,30 +78,32 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+𝑯𝒆𝒍𝒍𝒐 𝒔𝒊𝒓/𝒎𝒂'𝒂𝒎 , 𝑰'𝒎 𝑽𝑬𝑿𝑬𝑹𝑨....
+`𝙸 𝙰𝙼 𝙰 𝙽𝙴𝚇𝚃 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙸𝙾𝙽 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃!`\n\n𝙷𝙸𝚃 /vexera 𝚃𝙾 𝙼𝚈 𝙵𝙸𝙽𝙳 𝙰𝙻𝙻 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂
+ 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚈 @KAMINAxd
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="★𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻𝙳𝙾★", url="t.me/VEXERA_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="★ʀᴇᴘᴏꜱɪᴛᴏʀʏ★", url=f"https://t.me/SNEHABHI_UPDATES"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="★𝚅𝙴𝚇𝙴𝚁𝙰 𝚂𝚄𝙿𝙿𝙾𝚁𝚃★", url=f"https://t.me/SNEHABHI_SERVER"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="★ᴄʜᴀɴɴᴇʟ★", url=f"https://t.me/SUKOON_MATLAB_TUM"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="★ᴍᴀꜱᴛɪ ɢʀᴏᴜᴘ★", url=f"https://t.me/LIVE_LIFE_LIKE"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="★ɪɴɴᴏᴄᴇɴᴛ ᴏᴡɴᴇʀ★", url=f"https://t.me/KAMINAxd")],
+    [
+        InlineKeyboardButton(text="★𝙑𝙀𝙓𝙀𝙍𝘼 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎★", callback_data="help_back"),
     ],
 ]
 
@@ -110,12 +112,9 @@ HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
 ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Lucifer](t.me/detctective_de) \
- Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/Zaid_updates) \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+
+DONATE_STRING = "𝙽𝙾 𝙽𝙴𝙴𝙳 , 𝙸'𝙼 𝚁𝙸𝙲𝙷 😏😏😂"
 
 IMPORTED = {}
 MIGRATEABLE = []
