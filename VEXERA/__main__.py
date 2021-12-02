@@ -19,7 +19,7 @@ from  import (
     SUPPORT_CHAT,UPDATES_CHANNEL,
     dispatcher,
     StartTime,
-    telethon,
+    telethn,
     updater)
 
 # needed to dynamically load modules
