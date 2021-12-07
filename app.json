@@ -1,31 +1,24 @@
 {
-      "name": "VEXERA Robot",
-      "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/19798419a95cd778001c9.jpg",
-      "keywords": [
-         "telegram",
-         "anime",
-         "group",
-         "manager",
-         "TGN"
-      ],   
-   "repository": "https://github.com/ABHI-xd/VEXERA-MANAGEMENT",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ],  
+  "name": "DaisyX",
+  "description": "?",
+  "keywords": [
+    "telegram",
+    "vexera",
+    "modules",
+    "telegram-VEXERA",
+    "fuck-TG"
+  ],
+  "repository": "https://github.com/ABHI-xd/VEXERA-MANAGEMENT",
+  "website": "daisyproject.studio",
+  "success_url": "t.me/SNEHABHI_Updates",
+  "buildpacks": [
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   },
+   {
+     "url": "https://github.com/InukaAsith/heroku-buildpack-python"
+   }     
+  ],
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
