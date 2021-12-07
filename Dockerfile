@@ -63,7 +63,9 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/TGNRobot
+RUN git clone -b shiken https://github.com/ABHI-xd/VEXERA-MANAGEMENT /root/VEXERA
+WORKDIR /root/VEXERA
+
 
 
 COPY ./VEXERA/sample_config.py ./VEXERA/config.py* /root/VEXERA/VEXERA/
