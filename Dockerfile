@@ -64,10 +64,8 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/TGNRobot
-RUN git clone -b shiken https://github.com/ABHI-XD/VEXERA-MANAGEMENT /root/VEXERA
-WORKDIR /root/VEXERA
 
-#Copy config file to /root/TGNRobot/TGNRobot
+
 COPY ./VEXERA/sample_config.py ./VEXERA/config.py* /root/VEXERA/VEXERA/
 
 ENV PATH="/home/bot/bin:$PATH"
