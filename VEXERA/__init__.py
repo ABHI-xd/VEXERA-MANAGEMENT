@@ -15,6 +15,7 @@ from telethon.sessions import StringSession
 from motor import motor_asyncio
 from odmantic import AIOEngine
 from pymongo import MongoClient
+from VEXERA.utils.logger import log
 from pymongo.errors import ServerSelectionTimeoutError
 from redis import StrictRedis
 from Python_ARQ import ARQ
