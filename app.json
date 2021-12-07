@@ -11,22 +11,7 @@
   "repository": "https://github.com/ABHI-xd/VEXERA-MANAGEMENT",
   "website": "daisyproject.studio",
   "success_url": "t.me/SNEHABHI_Updates",
-  "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ],
+  "stack": "container",
    "env": {
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
