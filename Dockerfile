@@ -1,4 +1,4 @@
-FROM vexera-management/python:latest
+FROM python:latest
 
 
 WORKDIR /VEXERA
