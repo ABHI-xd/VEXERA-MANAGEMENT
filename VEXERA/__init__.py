@@ -24,10 +24,6 @@ from telegraph import Telegraph
 from VEXERA.versions import VEXERA_VERSION
 from telegram import Chat
 
-log.info("----------------------")
-log.info("|      𝙑𝙀𝙓𝙀𝙍𝘼 𝙈𝘼𝙉𝘼𝙂𝙀𝙈𝙀𝙉𝙏      |")
-log.info("----------------------")
-log.info("𝚅𝙴𝚁𝚂𝙸𝙾𝙽: " + VEXERA_VERSION)
 
 
 StartTime = time.time()
