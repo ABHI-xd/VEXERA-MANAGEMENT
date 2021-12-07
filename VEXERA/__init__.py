@@ -21,7 +21,7 @@ from Python_ARQ import ARQ
 from aiohttp import ClientSession
 from telegraph import Telegraph
 from VEXERA.versions import VEXERA_VERSION
-rom telegram import Chat
+from telegram import Chat
 
 log.info("----------------------")
 log.info("|      𝙑𝙀𝙓𝙀𝙍𝘼 𝙈𝘼𝙉𝘼𝙂𝙀𝙈𝙀𝙉𝙏      |")
