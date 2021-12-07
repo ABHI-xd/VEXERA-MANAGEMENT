@@ -79,4 +79,4 @@ nudepy
 motor
 cloudscraper
 gpytranslate
-
+loguru
