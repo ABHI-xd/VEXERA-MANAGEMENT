@@ -12,9 +12,9 @@ from io import BytesIO
 from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from TGNRobot import OWNER_ID, SUPPORT_CHAT
-from TGNRobot.events import register
-from TGNRobot import telethn
+from VEXERA import OWNER_ID, SUPPORT_CHAT
+from VEXERA.events import register
+from VEXERA import telethn
 from PIL import Image, ImageDraw, ImageFont
 
 
