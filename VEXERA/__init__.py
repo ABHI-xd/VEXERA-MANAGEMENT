@@ -214,7 +214,7 @@ pgram = Client(
     api_hash=API_HASH,
     bot_token=TOKEN,
 )
-telethn = TelegramClient(API_ID, API_HASH)
+telethn = TelegramClient(api_id, api_hash)
 aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
