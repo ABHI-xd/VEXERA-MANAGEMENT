@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from TGNRobot.modules import connection
+from VEXERA.modules import connection
 
 connected = connection.connected
