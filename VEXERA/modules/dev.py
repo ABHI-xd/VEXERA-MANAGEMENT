@@ -6,7 +6,7 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import TGNRobot
+import VEXERA
 
 from VEXERA import dispatcher
 from VEXERA.modules.helper_funcs.chat_status import dev_plus
@@ -22,9 +22,9 @@ def allow_groups(update: Update, context: CallbackContext):
         update.effective_message.reply_text(f"Current state: {TGNRobot.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
-        TGNRobot.ALLOW_CHATS = True
+        VEXERA.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        TGNRobot.ALLOW_CHATS = False
+        VEXERA.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return
