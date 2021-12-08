@@ -89,7 +89,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="★𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻𝙳𝙾★", url="t.me/VEXERA_ROBOT?startgroup=true"),
+            text="★𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻𝙳𝙾★", url="t.me/vexera_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="★ʀᴇᴘᴏꜱɪᴛᴏʀʏ★", url=f"https://t.me/SNEHABHI_UPDATES"),
