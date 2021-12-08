@@ -6,7 +6,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from  import (
+from VEXERA import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
