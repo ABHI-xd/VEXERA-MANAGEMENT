@@ -7,11 +7,11 @@ import requests
 import wget
 from pyrogram import filters
 
-from VEXERA import pbot as zaid
+from VEXERA import pbot as abhi
 from VEXERA.pyrogramee.dark import get_arg
 
 
-@zaid.on_message(filters.command("saavn"))
+@abhi.on_message(filters.command("saavn"))
 async def song(client, message):
     message.chat.id
     message.from_user["id"]
@@ -45,7 +45,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot as zaid
+from VEXERA import pbot as abhi
 
 ARQ = "https://thearq.tech/"
 
@@ -69,7 +69,7 @@ async def download_song(url):
     return song_name
 
 
-@zaid.on_message(filters.command("deezer"))
+@abhi.on_message(filters.command("deezer"))
 async def deezer(_, message):
     if len(message.command) < 2:
         await message.reply_text("Download Now Deezer")
@@ -123,7 +123,7 @@ async def download_song(url):
     return song_name
 
 
-@zaid.on_message(filters.command("deezer"))
+@abhi.on_message(filters.command("deezer"))
 async def deezer(_, message):
     if len(message.command) < 2:
         await message.reply_text("Download Now Deezer")
