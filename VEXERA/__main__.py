@@ -13,14 +13,17 @@ from VEXERA import (
     LOGGER,
     OWNER_ID,
     PORT,
+    SUPPORT_CHAT,
     TOKEN,
     URL,
     WEBHOOK,
-    SUPPORT_CHAT,UPDATES_CHANNEL,
+    SUPPORT_CHAT,
     dispatcher,
     StartTime,
     telethn,
-    updater)
+    pbot,
+    updater,
+    )
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
